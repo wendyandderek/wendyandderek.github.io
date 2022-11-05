@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wendy’s Acupuncture and Rehab Clinic</title>
+        <link rel="stylesheet" href="style2.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $("document").ready(function(){
+                $("#btn").click(fun);
+                $(window).scroll(function(){
+                    var scrollHeight = $(document).scrollTop();
+                    if (scrollHeight > 200){
+                        $(".top").css("display","grid");
+                    }
+                    else if (scrollHeight <= 200){
+                        $(".top").css("display","none");
+                    }
+                });
+            });
+            function fun(){
+                $("#navigationmanu").slideToggle("slow");
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="contact">
+                Phone: <a class="link" href="tel:4168318028">+1 416-831-8028</a>
+            </div>
+            <div class="contact" style="padding-bottom: 1em;">
+                Email: <a class="link" href="mailto:info@wendysacupuncture.ca">info@wendysacupuncture.ca</a>
+            </div>   
+        </header>
+        <div>
+            <a class="logo" href="index.html">
+                <img src="pic/wendys-acupuncture-logo.jpg" width="100%">
+            </a>
+        </div>
+        <main class="main">
+            <div class="navigation">
+                <div class="navigationfont">Navigation
+                    <button id="btn"><img class="icon" src="pic/icon.png"/></button>
+                </div>
+                <ul class="manuul" id="navigationmanu">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="currentpage" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="page" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="page" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+            </div>
+            <div class="aside">
+                <ul class="manuul">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="currentpage" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="page" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="page" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli" style="border-bottom:none;"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+                <a id="asidepic" href="patient.html">
+                    <img src="pic/patient-feedback.jpg" width="100%">
+                </a>
+            </div>
+            <div class="maininfo">
+                <div class="location"> You are here: 
+                    <a  class="footlink" href="index.html">Home</a>
+                     / Scope of practice
+                </div>
+                <div class="text">
+                    <p id="title">Scope of practice</p>
+                    <hr class="mainline">
+                    <div class="indexbox">
+                        <span><a href="#Acupuncture" class="index">Acupuncture Therapy</a></span>
+                        <span><a href="#Herbal" class="index">Herbal Medicine</a></span>
+                        <span><a href="#Cosmetic" class="index">Cosmetic Acupuncture</a></span>
+                        <span><a href="#Cupping" class="index">Cupping Therapy</a></span>
+                        <span><a href="#Moxibustion" class="index">Moxibustion Therapy</a></span>
+                    </div>
+                    <div id="Acupuncture">
+                        <p class="title2">Acupuncture Therapy</p>
+                        <hr class="textline">
+                        <p class="info2">Many diseases have been successfully treated by acupuncture. The most common ailments 
+                            currently being treated are: lower back pain, Cervical Spondylosis, Condylitis, Arthritic Conditions, 
+                            Headaches of all kinds (including migraine), Allergic Reactions, general and specific use for 
+                            Analgesia (including surgery) and relief of muscles spasms. There have also been successful clinical 
+                            cases in the use of acupuncture in treating anxiety disorders and depression. Likewise, very high 
+                            success rates have been found in treating addictions to alcohol and tobacco (nicotine).</p>
+                        <img class="infopic" src="pic/prac1pics.jpg">
+                    </div>
+                    <div id="Herbal">
+                        <p class="title2">Herbal Medicine</p>
+                        <hr class="textline">
+                        <p class="info2">Herbal medicine has a long history in China. It started from as early as the Stone Age 
+                            and completed in the later part of the 5th century B.C. Herbs can be categorized into “food herbs” 
+                            and “medicinal herbs”. Medicinal herbs are dispensed to each patient as an individual formula based 
+                            on the patient’s medical condition, in the form of herbs’ original shapes or formulated powder, tea, 
+                            tablets, encapsulations or syrups.</p>
+                        <p class="info2">Medicinal herbal therapy works in concert with acupuncture by providing the nourishing 
+                            support for the energetic “re-programming” and “re-balancing” efforts of acupuncture.</p>
+                        <img class="infopic" src="pic/prac2pic.jpg">
+                    </div>
+                    <div id="Cosmetic">
+                        <p class="title2">Cosmetic Acupuncture</p>
+                        <hr class="textline">
+                        <p class="info2">Cosmetic Acupuncture is sometimes also known as Acupuncture Facelift. It is a pain-free, 
+                            non-surgical method to reduce the signs of aging. It has been discovered that some meridians either 
+                            begin or end on the face while some others have internal branches that go to the face. By inserting 
+                            acupuncture needles into some specific points around face, the flow of energy through the face can 
+                            be manipulated to reduce wrinkles, make skin delicate and fair, improve the elasticity of the facial 
+                            muscles and eventually rejuvenate the looking of face.</p>
+                        <img class="infopic" src="pic/prac3pic.jpg">
+                    </div>
+                    <div id="Cupping">
+                        <p class="title2">Cupping Therapy</p>
+                        <hr class="textline">
+                        <p class="info2">Cupping is a method to stimulate the acupuncture points by applying suction through a 
+                            glass jar or plastic cup, in which a partial vacuum has been created. This procedure produces blood 
+                            congestion at the site, and therefore stimulates the flow of Qi through the acupuncture points. 
+                            Cupping is often used for back pain, sprains, soft tissue injuries and etc.</p>
+                        <img class="infopic" src="pic/prac4pic.jpg">
+                    </div>
+                    <div id="Moxibustion">
+                        <p class="title2">Moxibustion Therapy</p>
+                        <hr class="textline">
+                        <p class="info2">Moxibustion is another traditional Chinese medicine procedure that is usually used 
+                            together with acupuncture. An acupuncture needle is inserted into a specific point and retained. 
+                            The tip of the needle is then wrapped in moxa, a small spongy herb, and ignited, generating heat 
+                            to the point and the surrounding area. The purpose of moxibustion, as with most forms of traditional 
+                            Chinese medicine, is to stimulate the flow of Qi, restore and maintain health.</p>
+                        <p class="info2">Moxibustion has been used in China for thousands of years; In western medicine, 
+                            moxibustion has been successfully used to turn breech babies into a normal head-down position 
+                            prior to childbirth. Studies by American Medical Association has found that up to 75% of women 
+                            suffering from breech presentations before childbirth had fetuses rotated to the normal position 
+                            after receiving moxibustion.</p>
+                        <img class="infopic" src="pic/prac5pic.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="bottompic">
+                <a  href="patient.html">
+                    <img src="pic/patient-feedback.jpg">
+                </a>
+            </div>
+            <div class="top" style="display: none;">
+                <a class="totop" href="#">TOP</a>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <br><br>
+            </div>
+            <nav class="footercolor1">
+                <a class="footlink" href="scope.html#Acupuncture">Acupuncture Therapy </a> <span>|</span>
+                <a class="footlink" href="scope.html#Herbal">Herbal Medicine</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cosmetic">Cosmetic Acupuncture</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cupping">Cupping Therapy</a> <span>|</span>
+                <a class="footlink" href="scope.html#Moxibustion">Moxibustion Therapy</a> <span>|</span>
+                <a class="footlink" href="location.html">Contact Us</a>
+            </nav>
+            <div class="footercolor2">Copyright  &copy;  2020 Wendy's Acupuncture, All rights reserved <br><br></div>
+            <br><br>
+        </footer>
+    </body>
+</html>

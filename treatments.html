@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wendy’s Acupuncture and Rehab Clinic</title>
+        <link rel="stylesheet" href="style2.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $("document").ready(function(){
+                $("#btn").click(fun);
+                $(window).scroll(function(){
+                    var scrollHeight = $(document).scrollTop();
+                    if (scrollHeight > 200){
+                        $(".top").css("display","grid");
+                    }
+                    else if (scrollHeight <= 200){
+                        $(".top").css("display","none");
+                    }
+                });
+            });
+            function fun(){
+                $("#navigationmanu").slideToggle("slow");
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="contact">
+                Phone: <a class="link" href="tel:4168318028">+1 416-831-8028</a>
+            </div>
+            <div class="contact" style="padding-bottom: 1em;">
+                Email: <a class="link" href="mailto:info@wendysacupuncture.ca">info@wendysacupuncture.ca</a>
+            </div>   
+        </header>
+        <div>
+            <a class="logo" href="index.html">
+                <img src="pic/wendys-acupuncture-logo.jpg" width="100%">
+            </a>
+        </div>
+        <main class="main">
+            <div class="navigation">
+                <div class="navigationfont">Navigation
+                    <button id="btn"><img class="icon" src="pic/icon.png"/></button>
+                </div>
+                <ul class="manuul" id="navigationmanu">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="page" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="page" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="currentpage" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+            </div>
+            <div class="aside">
+                <ul class="manuul">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="page" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="page" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="currentpage" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli" style="border-bottom:none;"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+                <a id="asidepic" href="patient.html">
+                    <img src="pic/patient-feedback.jpg" width="100%">
+                </a>
+            </div>
+            <div class="maininfo">
+                <div class="location"> You are here: 
+                    <a  class="footlink" href="index.html">Home</a>
+                     / How many treatments are expected?
+                </div>
+                <div class="text">
+                    <p id="title">How many treatments are expected?</p>
+                    <hr class="mainline">
+                    <div class="patientspic">
+                        <img src="pic/howmany-1.jpg" width="100%">
+                    </div>
+                    <div>
+                        <p class="info2">The total number of treatments required depends on the conditions of the symptoms. 
+                            For acute problems, only a few treatments will be required. For complex or chronic conditions, 
+                            more treatments may be recommended. In very few cases, several sessions may be required before 
+                            improvement is noticed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottompic">
+                <a  href="patient.html">
+                    <img src="pic/patient-feedback.jpg">
+                </a>
+            </div>
+            <div class="top" style="display: none;">
+                <a class="totop" href="#">TOP</a>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <br><br>
+            </div>
+            <nav class="footercolor1">
+                <a class="footlink" href="scope.html#Acupuncture">Acupuncture Therapy </a> <span>|</span>
+                <a class="footlink" href="scope.html#Herbal">Herbal Medicine</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cosmetic">Cosmetic Acupuncture</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cupping">Cupping Therapy</a> <span>|</span>
+                <a class="footlink" href="scope.html#Moxibustion">Moxibustion Therapy</a> <span>|</span>
+                <a class="footlink" href="location.html">Contact Us</a>
+            </nav>
+            <div class="footercolor2">Copyright  &copy;  2020 Wendy's Acupuncture, All rights reserved <br><br></div>
+            <br><br>
+        </footer>
+    </body>
+</html>

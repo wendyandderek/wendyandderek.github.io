@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-CA" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wendy’s Acupuncture and Rehab Clinic</title>
+        <link rel="stylesheet" href="style2.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $("document").ready(function(){
+                $("#btn").click(fun);
+                $(window).scroll(function(){
+                    var scrollHeight = $(document).scrollTop();
+                    if (scrollHeight > 200){
+                        $(".top").css("display","grid");
+                    }
+                    else if (scrollHeight <= 200){
+                        $(".top").css("display","none");
+                    }
+                });
+            });
+            function fun(){
+                $("#navigationmanu").slideToggle("slow");
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="contact">
+                Phone: <a class="link" href="tel:4168318028">+1 416-831-8028</a>
+            </div>
+            <div class="contact" style="padding-bottom: 1em;">
+                Email: <a class="link" href="mailto:info@wendysacupuncture.ca">info@wendysacupuncture.ca</a>
+            </div>   
+        </header>
+        <div>
+            <a class="logo" href="index.html">
+                <img src="pic/wendys-acupuncture-logo.jpg" width="100%">
+            </a>
+        </div>
+        <main class="main">
+            <div class="navigation">
+                <div class="navigationfont">Navigation
+                    <button id="btn"><img class="icon" src="pic/icon.png"/></button>
+                </div>
+                <ul class="manuul" id="navigationmanu">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="page" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="currentpage" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="page" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+            </div>
+            <div class="aside">
+                <ul class="manuul">
+                    <li class="manuli"><a class="page" href="index.html">Home</a></li>
+                    <li class="manuli"><a class="page" href="about.html">About the practitioner</a></li>
+                    <li class="manuli"><a class="page" href="scope.html">Scope of practice</a></li>
+                    <li class="manuli"><a class="currentpage" href="treat.html">What are being treated?</a></li>
+                    <li class="manuli"><a class="page" href="learn.html">Learn about acupuncture</a></li>
+                    <li class="manuli"><a class="page" href="fear.html">Get rid of the fear of needles</a></li>
+                    <li class="manuli"><a class="page" href="effective.html">What is acupuncture most effective for?</a></li>
+                    <li class="manuli"><a class="page" href="treatments.html">How many treatments are expected?</a></li>
+                    <li class="manuli"><a class="page" href="pay.html">Who pays for the treatment?</a></li>
+                    <li class="manuli" style="border-bottom:none;"><a class="page" href="location.html">Location-Hours-Contact</a></li>
+                </ul>
+                <a id="asidepic" href="patient.html">
+                    <img src="pic/patient-feedback.jpg" width="100%">
+                </a>
+            </div>
+            <div class="maininfo">
+                <div class="location"> You are here: 
+                    <a  class="footlink" href="index.html">Home</a>
+                     / What are being treated?
+                </div>
+                <div class="text">
+                    <p id="title">What are being treated?</p>
+                    <hr class="mainline">
+                    <div class="treatpic"><img width="95%" src="pic/treatment.jpg"></div>
+                    <div class="treattext">
+                        <div class="treatinfo">
+                            <p class="title3">Pain Problems</p>
+                            <ul class="treatul">
+                                <li>Headache</li>
+                                <li>Migraine</li>
+                                <li>Low Back Pain</li>
+                                <li>Joint Pain</li>
+                                <li>Foot Pain</li>
+                                <li>Auto and Sport Injuries</li>
+                                <li>Stiff Neck</li>
+                                <li>Rheumatism</li>
+                                <li>Arthritis</li>
+                                <li>Tendonitis</li>
+                                <li>Rotator Cuff Pain</li>
+                                <li>Frozen Shoulder</li>
+                                <li>Tennis Elbow</li>
+                                <li>Carpal Tunnel Syndrome</li>
+                                <li>Neuralgia</li>
+                                <li>Sciatica</li>
+                                <li>Shingles</li>
+                                <li>Trigeminal Neuralgia</li>
+                                <li>(Multiple Sclerosis)</li>
+                                <li>Gout</li>
+                                <li>Fibromyalgia</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Reproductive System</p>
+                            <ul class="treatul">
+                                <li>Sexual Dysfunction</li>
+                                <li>Impotence</li>
+                                <li>Premature Ejaculation</li>
+                                <li>Irregular Periods</li>
+                                <li>Menopause</li>
+                                <li>Infertility</li>
+                                <li>Menstrual Cramps</li>
+                                <li>Premenstrual Syndrome</li>
+                                <li>Endometriosis</li>
+                                <li>Prolapse of Uterus</li>
+                                <li>Pelvic Inflammation</li>
+                                <li>Uterine Fibroids</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Addictions</p>
+                            <ul class="treatul">
+                                <li>Smoking</li>
+                                <li>Alcohol</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Emotional Problems</p>
+                            <ul class="treatul">
+                                <li>Insomnia</li>
+                                <li>Stress</li>
+                                <li>Depression</li>
+                                <li>Anxiety</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Paralyses</p>
+                            <ul class="treatul">
+                                <li>Bell's Palsy</li>
+                                <li>Hemiplegia</li>
+                                <li>Paraplegia</li>
+                                <li>Sequel of Polio</li>
+                                <li>Cerebral Palsy</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Respiratory System</p>
+                            <ul class="treatul">
+                                <li>Allergies</li>
+                                <li>Asthma</li>
+                                <li>Cough</li>
+                                <li>Flu (and Colds)</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Urinary System</p>
+                            <ul class="treatul">
+                                <li>Urethritis</li>
+                                <li>Cystitis</li>
+                                <li>Bed-wetting</li>
+                                <li>Kidney Stones</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Skin Problems</p>
+                            <ul class="treatul">
+                                <li>Skin Itching</li>
+                                <li>Genitals Itching</li>
+                                <li>Acne</li>
+                                <li>Eczema</li>
+                                <li>Dermatitis</li>
+                                <li>Hair Loss</li>
+                                <li>Psoriasis</li>
+                                <li>Vitiligo</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Ears and Nose Problems</p>
+                            <ul class="treatul">
+                                <li>Tinnitus</li>
+                                <li>Sinusitis</li>
+                                <li>Rhinitis</li>
+                                <li>Dizziness</li>
+                                <li>Meniere&#8217;s Disease</li>
+                                <li>Ear Infection</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title3">Digestion Problems</p>
+                            <ul class="treatul">
+                                <li>Constipation</li>
+                                <li>Colitis</li>
+                                <li>IBS</li>
+                                <li>Peptic Ulcer</li>
+                                <li>Indigestion</li>
+                                <li>Abdominal Pain</li>
+                                <li>Diarrhea</li>
+                                <li>Vomiting</li>
+                                <li>Nausea</li>
+                                <li>Hiccup</li>
+                                <li>Prolapse of Stomach</li>
+                                <li>Haemorrhoids</li>
+                                <li>Gallstones</li>
+                            </ul>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Parkinson</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Side-effects of Chemo-Radio-Therapy for Cancers</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Overweight</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Fatigue</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Poor Circulation</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Low Energy</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">High Blood Pressure</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Diabetes</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">High Cholesterol</p>
+                        </div>
+                        <div class="treatinfo">
+                            <p class="title4">Immune System Deficiency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottompic">
+                <a  href="patient.html">
+                    <img src="pic/patient-feedback.jpg">
+                </a>
+            </div>
+            <div class="top" style="display: none;">
+                <a class="totop" href="#">TOP</a>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <br><br>
+            </div>
+            <nav class="footercolor1">
+                <a class="footlink" href="scope.html#Acupuncture">Acupuncture Therapy </a> <span>|</span>
+                <a class="footlink" href="scope.html#Herbal">Herbal Medicine</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cosmetic">Cosmetic Acupuncture</a> <span>|</span>
+                <a class="footlink" href="scope.html#Cupping">Cupping Therapy</a> <span>|</span>
+                <a class="footlink" href="scope.html#Moxibustion">Moxibustion Therapy</a> <span>|</span>
+                <a class="footlink" href="location.html">Contact Us</a>
+            </nav>
+            <div class="footercolor2">Copyright  &copy;  2020 Wendy's Acupuncture, All rights reserved <br><br></div>
+            <br><br>
+        </footer>
+    </body>
+</html>
